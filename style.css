@@ -1,0 +1,160 @@
+body {
+    background-color: burlywood;
+    background-image: url("../images/bread.jpg");
+    color: black;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.judul-utama {
+    color: magenta;
+    font-family : Arial, Helvetica, sans-serif
+}
+/* start container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+    font-family: 'Arial';
+    
+}
+/* end container */
+
+/* start menu-primer*/
+.container menu-primer {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+    font-family: 'Arial';
+    display: inline-block;
+    color: white;
+    text-align: center;
+   
+}
+/*end menu-primer*/
+
+
+/* Start Menu Prime */
+.menu-primer ul {
+    background-color: #333;
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0,0,0,.2), 
+        0 6px 10px 0 rgba(0,0,0,.14), 
+        0 1px 18px 0 rgba(0,0,0,.12);
+}
+.menu-primer li {
+    border-right: 1px solid #d1d5da;
+    display: inline-block;
+    margin: 0 -4px;
+}
+.menu-primer a {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.menu-primer a:hover {
+    background-color: #f7f7f7;
+    color: #333;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: #ffffff;
+    color: #333;
+    text-decoration: none;
+}
+/* End Menu Primer */
+
+/* Start Menu Sekunder */
+.menu-sekunder {
+    background-color: #f6f8fa;
+    border-bottom: 1px solid #eaecef;
+    border-top: 1px solid #eaecef;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+.menu-sekunder li a,
+.menu-sekunder p {
+    font-size: 15px;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+.menu-sekunder-one {
+    width: 40%;
+}
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+    width: 30%;
+}
+
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+/* End Menu Sekunder */
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: lightpink;
+    border: 1px solid #eaecef;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* End Jumbotron */
+
+
+/* Start Box */
+.box-heading {
+    background-color: #f6f8fa;
+    border: 1px solid #d1d5da;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+.box-sub-heading {
+    text-transform: uppercase;
+}
+.box-isi {
+    background-color: peachpuff;
+    border: 1px solid #eaecef;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/* End Box */
